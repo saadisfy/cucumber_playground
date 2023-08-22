@@ -1,0 +1,23 @@
+{
+  "name": "cucumber_playground",
+  "version": "1.0.0",
+  "description": "playing around with cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber-js",
+    "greetings": "cucumber-js -p runner --parallel 3 --tags '@Greeting'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saadisfy/cucumber_playground.git"
+  },
+  "author": "Saad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saadisfy/cucumber_playground/issues"
+  },
+  "homepage": "https://github.com/saadisfy/cucumber_playground#readme",
+  "dependencies": {
+    "@cucumber/cucumber": "^9.4.0"
+  }
+}
